@@ -1,0 +1,152 @@
+
+p {
+    color: rgb(223, 195, 195);
+}
+
+.verde {
+    color: rgb(5, 5, 5);
+}
+
+.Rosybrown {
+    background-color: rosybrown;
+}
+
+.titulo {
+    color: black;
+    font-size: 4rem;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.size {
+    front-size: x-large;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ---------- header---------- */
+
+.header {
+    background-image: url("./img/img/cadenas.banner.webp");
+    background-color: lightpink;
+    background-repeat: repeat;
+}
+
+/*---------- navbar------------ */
+
+.header__navbar ul {
+    padding: 2rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header__navbar li {
+    display: inline-block;
+}
+
+.header__navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: lightpink;
+    color: beige;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+/* ---------contenido------- */
+
+.contenedor__flex{
+    display: flex;
+}
+
+.contenido__imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    width: 70%;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+.contenido img{
+    width: 40%;
+    padding: 1rem;
+
+}
+
+.contenido {
+    line-height: 1.6;
+    background-color:rgba(255, 255, 255, 0.61);
+    width: 70%;
+    padding: 2rem;
+    border: solid black 3px;
+}
+
+.contenido__titulo {
+    background-color: lightpink; 
+}
+
+.aside { 
+    background-color:rgb(241, 224, 192);
+    width: 30%;
+    padding: 2rem;
+    border: dotted lightpink 2px;
+}
+/* --------footer--------- */
+
+.footer{ 
+    background-color:lightpink;
+    padding: 2rem;
+
+}
+
+
+.footer__flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__menu{
+    list-style: none;
+    text-align: center;
+}
+
+.footer__menu a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.footer__titulo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer_pagos{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* ------------grid----------------- */
+
+.anillos__oro{
+    display: grid;
+}
+    
+
+
+
+
